@@ -1,0 +1,135 @@
+body{
+	background: black;
+}
+
+.contaire-titre{
+margin-top: 12px;
+}
+
+
+h1{
+	color: white;
+	font-family: 'Echinos Park Script PERSONAL USE ONLY';
+	margin-top: -10px;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Echinos Park Script PERSONAL USE ONLY';
+	font-size: 30px;
+	color: white;
+	margin-left: 50px;
+}
+
+.a{
+margin-left: 111px;
+}
+
+.bloc-info{
+	
+	width:310px ;
+	height: 400px;
+	display: flex;
+	margin: -439px 0px 0px 748px;
+
+}
+
+img.icone{
+	
+	height: 40px;
+
+}
+
+p{
+
+	color: white;
+	margin-left: 16px;
+
+}
+#bloc-map{
+	
+    width: 700px;
+    height: 440px;
+    margin-top: 21px;
+}
+
+.group1 { 
+  position:relative; 
+ margin-top: 50px;
+}
+
+.group2 { 
+  position:relative; 
+  margin-bottom:45px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 500px;
+  
+ 
+}
+.nom{
+ margin-top: -40px;
+}
+input{
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #757575;
+  background-color: black;
+  color: rgba(255,255,255,.7);
+
+}
+
+/* LABEL ======================================= */
+label {
+  color:#999; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  font-family: 'Helvetica';
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label {
+  top:-20px;
+  font-size:14px;
+  color:white;
+}
+
+/* BOTTOM BARS ================================= */
+.bar{ 
+	position:relative; 
+	display:block; 
+	
+}
+.bouton{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 350px;
+}
+
+button{
+	border: 1px solid grey;
+	background-color: black;
+	color: grey;
+	width: 100px;
+	height: 40px;
+	margin-top: -85px;
+
+}
+
+img.bas-de-page{
+	width: 100%;
+}
+
+footer{
+	height:450px; 
+	display: flex;
+	margin-top: 30px;
+}
